@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'stream-combiner',
+1 verbose cli   'split' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'stream-combiner', null ]
+5 verbose cache add name=undefined spec="stream-combiner" args=["stream-combiner",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'stream-combiner',
+6 verbose parsed url   path: 'stream-combiner',
+6 verbose parsed url   href: 'stream-combiner' }
+7 verbose cache add [ 'split', null ]
+8 verbose cache add name=undefined spec="split" args=["split",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'split',
+9 verbose parsed url   path: 'split',
+9 verbose parsed url   href: 'split' }
+10 silly lockFile 2c1d4fe3-stream-combiner stream-combiner
+11 verbose lock stream-combiner /Users/dennis/.npm/2c1d4fe3-stream-combiner.lock
+12 silly lockFile 94d5cab6-split split
+13 verbose lock split /Users/dennis/.npm/94d5cab6-split.lock
+14 silly lockFile 2c1d4fe3-stream-combiner stream-combiner
+15 silly lockFile 2c1d4fe3-stream-combiner stream-combiner
+16 silly lockFile 94d5cab6-split split
+17 silly lockFile 94d5cab6-split split
+18 verbose addNamed [ 'stream-combiner', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile b36c76fd-stream-combiner stream-combiner@
+21 verbose lock stream-combiner@ /Users/dennis/.npm/b36c76fd-stream-combiner.lock
+22 verbose addNamed [ 'split', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 9bded833-split split@
+25 verbose lock split@ /Users/dennis/.npm/9bded833-split.lock
+26 silly addNameRange { name: 'stream-combiner', range: '*', hasData: false }
+27 silly addNameRange { name: 'split', range: '*', hasData: false }
+28 verbose request where is /stream-combiner
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 84351a0dff801bae
+31 verbose url raw /stream-combiner
+32 verbose url resolving [ 'https://registry.npmjs.org/', './stream-combiner' ]
+33 verbose url resolved https://registry.npmjs.org/stream-combiner
+34 verbose request where is https://registry.npmjs.org/stream-combiner
+35 info trying registry request attempt 1 at 12:01:12
+36 verbose etag "6XE5VOPPXRCBGFMOESKG8BSVF"
+37 http GET https://registry.npmjs.org/stream-combiner
+38 verbose request where is /split
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /split
+41 verbose url resolving [ 'https://registry.npmjs.org/', './split' ]
+42 verbose url resolved https://registry.npmjs.org/split
+43 verbose request where is https://registry.npmjs.org/split
+44 info trying registry request attempt 1 at 12:01:12
+45 verbose etag "3F13Y762QS8NR22YZPXPDHZF2"
+46 http GET https://registry.npmjs.org/split
+47 http 200 https://registry.npmjs.org/split
+48 silly registry.get cb [ 200,
+48 silly registry.get   { date: 'Sun, 05 Oct 2014 04:01:15 GMT',
+48 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly registry.get     etag: '"1PG74XAYZKOY3HPUCA42QI3R1"',
+48 silly registry.get     'content-type': 'application/json',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     'content-length': '16349',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     age: '285',
+48 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+48 silly registry.get     'x-cache': 'MISS',
+48 silly registry.get     'x-cache-hits': '0',
+48 silly registry.get     'x-timer': 'S1412481674.134987,VS0,VE1009',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 silly addNameRange number 2 { name: 'split', range: '*', hasData: true }
+50 silly addNameRange versions [ 'split',
+50 silly addNameRange   [ '0.0.0',
+50 silly addNameRange     '0.1.0',
+50 silly addNameRange     '0.1.1',
+50 silly addNameRange     '0.1.2',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1',
+50 silly addNameRange     '0.2.3',
+50 silly addNameRange     '0.2.4',
+50 silly addNameRange     '0.2.5',
+50 silly addNameRange     '0.2.6',
+50 silly addNameRange     '0.2.7',
+50 silly addNameRange     '0.2.8',
+50 silly addNameRange     '0.2.9',
+50 silly addNameRange     '0.2.10',
+50 silly addNameRange     '0.3.0' ] ]
+51 verbose addNamed [ 'split', '0.3.0' ]
+52 verbose addNamed [ '0.3.0', '0.3.0' ]
+53 silly lockFile 3e96a76e-split-0-3-0 split@0.3.0
+54 verbose lock split@0.3.0 /Users/dennis/.npm/3e96a76e-split-0-3-0.lock
+55 silly lockFile 3e96a76e-split-0-3-0 split@0.3.0
+56 silly lockFile 3e96a76e-split-0-3-0 split@0.3.0
+57 silly lockFile 9bded833-split split@
+58 silly lockFile 9bded833-split split@
+59 http 200 https://registry.npmjs.org/stream-combiner
+60 silly registry.get cb [ 200,
+60 silly registry.get   { date: 'Sun, 05 Oct 2014 04:01:15 GMT',
+60 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 silly registry.get     etag: '"58265WQNW8MKFTJ6S3OC3ZMUF"',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=60',
+60 silly registry.get     'content-length': '9315',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '2949',
+60 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+60 silly registry.get     'x-cache': 'HIT',
+60 silly registry.get     'x-cache-hits': '1',
+60 silly registry.get     'x-timer': 'S1412481674.556298,VS0,VE842',
+60 silly registry.get     vary: 'Accept',
+60 silly registry.get     'keep-alive': 'timeout=10, max=50',
+60 silly registry.get     connection: 'Keep-Alive' } ]
+61 silly addNameRange number 2 { name: 'stream-combiner', range: '*', hasData: true }
+62 silly addNameRange versions [ 'stream-combiner',
+62 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.2', '0.0.4', '0.1.0', '0.2.0', '0.2.1' ] ]
+63 verbose addNamed [ 'stream-combiner', '0.2.1' ]
+64 verbose addNamed [ '0.2.1', '0.2.1' ]
+65 silly lockFile 7d412762-stream-combiner-0-2-1 stream-combiner@0.2.1
+66 verbose lock stream-combiner@0.2.1 /Users/dennis/.npm/7d412762-stream-combiner-0-2-1.lock
+67 silly lockFile 28989e34-mbiner-stream-combiner-0-2-1-tgz https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz
+68 verbose lock https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz /Users/dennis/.npm/28989e34-mbiner-stream-combiner-0-2-1-tgz.lock
+69 verbose addRemoteTarball [ 'https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz',
+69 verbose addRemoteTarball   '7b5b4541a8fed4ae129c438cfcae031e4525c057' ]
+70 info retry fetch attempt 1 at 12:01:15
+71 verbose fetch to= /var/folders/38/87l2330j7q54zj13yhpwy0lr0000gn/T/npm-462-AgdQQoNO/registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz
+72 http GET https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz
+73 http 200 https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz
+74 silly lockFile 28989e34-mbiner-stream-combiner-0-2-1-tgz https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz
+75 silly lockFile 28989e34-mbiner-stream-combiner-0-2-1-tgz https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.2.1.tgz
+76 silly lockFile 7d412762-stream-combiner-0-2-1 stream-combiner@0.2.1
+77 silly lockFile 7d412762-stream-combiner-0-2-1 stream-combiner@0.2.1
+78 silly lockFile b36c76fd-stream-combiner stream-combiner@
+79 silly lockFile b36c76fd-stream-combiner stream-combiner@
+80 error Error: EACCES, mkdir '/Users/dennis/.npm/stream-combiner/0.2.1'
+80 error  { [Error: EACCES, mkdir '/Users/dennis/.npm/stream-combiner/0.2.1']
+80 error   errno: 3,
+80 error   code: 'EACCES',
+80 error   path: '/Users/dennis/.npm/stream-combiner/0.2.1' }
+81 error Please try running this command again as root/Administrator.
+82 error System Darwin 13.3.0
+83 error command "node" "/usr/local/bin/npm" "install" "stream-combiner" "split"
+84 error cwd /Users/dennis/node/stream-adventure
+85 error node -v v0.10.32
+86 error npm -v 1.4.28
+87 error path /Users/dennis/.npm/stream-combiner/0.2.1
+88 error code EACCES
+89 error errno 3
+90 error stack Error: EACCES, mkdir '/Users/dennis/.npm/stream-combiner/0.2.1'
+91 verbose exit [ 3, true ]
